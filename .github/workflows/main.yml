@@ -14,7 +14,7 @@ jobs:
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
           project_name: "product-apim"
-          cx_tenant: "eaa5a36d-7d6b-4a19-98ea-b70735152a07"
+          cx_tenant: "wso2"
           base_uri: "https://us.ast.checkmarx.net" 
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
